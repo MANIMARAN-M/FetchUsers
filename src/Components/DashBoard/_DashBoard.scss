@@ -1,0 +1,56 @@
+.DashBoardUserFlex {
+  display: flex;
+  flex-wrap: wrap;
+  //   justify-content: center;
+  div {
+    flex-basis: 33.3333%;
+    .UserBg {
+      min-height: 200px;
+      padding: 10px;
+      margin: 10px;
+      box-shadow: 0 5px 15px rgba($color: #000000, $alpha: 0.1);
+      .userProfile {
+        svg {
+          font-size: 2.5rem;
+          color: royalblue;
+        }
+      }
+    }
+  }
+}
+
+.EditFormSection {
+  .EditInputgroup {
+    margin: 10px 0;
+    input {
+      width: 100%;
+      padding: 5px;
+      outline-color: royalblue;
+    }
+  }
+}
+.UserInfoTop {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 0 10px;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+@media (max-width: 550px) {
+  .DashBoardUserFlex {
+    display: flex;
+    flex-wrap: wrap;
+    div {
+      flex-basis: 100.3333%;
+      .UserBg {
+        min-height: 200px;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 0 5px 15px rgba($color: #000000, $alpha: 0.1);
+      }
+    }
+  }
+}

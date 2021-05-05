@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.HomePageSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: calc(100vh - 80px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.HomePageSection h1 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.mybutton a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.DashBoardUserFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.DashBoardUserFlex div {
+  -ms-flex-preferred-size: 33.3333%;
+      flex-basis: 33.3333%;
+}
+
+.DashBoardUserFlex div .UserBg {
+  min-height: 200px;
+  padding: 10px;
+  margin: 10px;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.DashBoardUserFlex div .UserBg .userProfile svg {
+  font-size: 2.5rem;
+  color: royalblue;
+}
+
+.EditFormSection .EditInputgroup {
+  margin: 10px 0;
+}
+
+.EditFormSection .EditInputgroup input {
+  width: 100%;
+  padding: 5px;
+  outline-color: royalblue;
+}
+
+.UserInfoTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.UserInfoTop a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 550px) {
+  .DashBoardUserFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .DashBoardUserFlex div {
+    -ms-flex-preferred-size: 100.3333%;
+        flex-basis: 100.3333%;
+  }
+  .DashBoardUserFlex div .UserBg {
+    min-height: 200px;
+    padding: 10px;
+    margin: 10px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+}
+/*# sourceMappingURL=style.css.map */
